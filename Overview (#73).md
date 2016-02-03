@@ -1,3 +1,17 @@
+<script type="text/javascript">// <![CDATA[
+function loadCSS(filename){
+       var file = document.createElement("link")
+       file.setAttribute("rel", "stylesheet")
+       file.setAttribute("type", "text/css")
+       file.setAttribute("href", filename)
+       if (typeof file !== "undefined")
+          document.head.appendChild(file)
+    }
+    //just call a function to load a new CSS:
+    loadCSS("https://methodcdn.com/helpc_css/helpc.css")
+// ]]></script>
+
+
 <p>Welcome to the <strong>improved </strong>Method CRM Help Center!</p>
 <p>Using the search bar in the top right of this screen or the handy category tree to the left, you can look up a variety of helpful how-to documentation and videos covering a wide variety of topics to do with Method's functionality.&nbsp; The Help Center is designed to help you make the most out of your Method experience, and we're adding new content all the time.</p>
 <p>Of course we're always improving our existing content as well, so if you have any feedback on how we can make the Help Center even better, we'd love to hear from you!&nbsp; Email us at <strong>education@method.me</strong> with your thoughts and ideas.</p>
